@@ -3,8 +3,8 @@ extends Node
 class_name Supabase
 
 # Supabase configuration (Set your own Supabase URL and API Key)
-var supabase_url: String = "https://your-project.supabase.co"
-var supabase_key: String = "your-supabase-key"
+var supabase_url: String = "https://nnsqtgnakefibqsakdwv.supabase.co/rest/v1/highscores"
+var supabase_key: String = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5uc3F0Z25ha2VmaWJxc2FrZHd2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3MjQ4NDA5NzEsImV4cCI6MjA0MDQxNjk3MX0.JqnXYZ8CaPIoWG4S4Bj3Mi3VOfZTrSvNx_I_A4HaF0k"
 
 # Reference to HTTPRequest node
 var http: HTTPRequest = null
