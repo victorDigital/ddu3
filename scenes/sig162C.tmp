@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://jhflb48aefbt"]
+
+[ext_resource type="Script" path="res://scripts/signup_page.gd" id="1_cc15m"]
+
+[node name="SignupPage" type="Node2D"]
+script = ExtResource("1_cc15m")
